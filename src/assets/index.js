@@ -22,6 +22,14 @@ import svg5 from "../assets/Offer=1/SVG=5.1.svg";
 import svg51 from "../assets/Offer=1/SVG=5.2.svg";
 import svg6 from "../assets/Offer=1/SVG=6.1.svg";
 import svg61 from "../assets/Offer=1/SVG=6.2.svg";
+import svg7 from "../assets/Offer=1/SVG-7.1.svg";
+import svg71 from "../assets/Offer=1/SVG-7.2.svg";
+import svg8 from "../assets/Offer=1/SVG-8.1.svg";
+import svg81 from "../assets/Offer=1/SVG-8.2.svg";
+import svg9 from "../assets/Offer=1/SVG-9.1.svg";
+import svg91 from "../assets/Offer=1/SVG-9.2.svg";
+import svg10 from "../assets/Offer=1/SVG-10.1.svg";
+import svg101 from "../assets/Offer=1/SVG-10.2.svg";
 
 export {
   variant1,
@@ -48,4 +56,12 @@ export {
   svg51,
   svg6,
   svg61,
+  svg7,
+  svg71,
+  svg8,
+  svg81,
+  svg9,
+  svg91,
+  svg10,
+  svg101,
 };

@@ -9,6 +9,7 @@ import ReadMore3 from "../src/assets/ReadMore/ReadMore-3.jpg";
 import ProjectComplate from "./Routes/Project-Complate/ProjectComplate.jsx";
 import RecentWork from "./Routes/RecentWorkers/RecentWork.jsx";
 import Offer from "./Routes/Offer/Offer.jsx";
+import AboutUs from "./Routes/About-US/AboutUs.jsx";
 
 const App = () => {
   const readMoreData = [
@@ -37,7 +38,7 @@ const App = () => {
     <BrowserRouter>
       <div>
         <Header />
-        <Navbar />
+        <Navbar className="sticky top-0 w-full" />
         <div className="flex gap-5 justify-center p-12">
           {readMoreData.map((item, index) => (
             <ReadMore
@@ -52,6 +53,8 @@ const App = () => {
         <ProjectComplate/>
         <RecentWork/>
         <Offer/>
+        <AboutUs />
+
       </div>
     </BrowserRouter>
   );

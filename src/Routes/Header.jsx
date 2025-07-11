@@ -9,7 +9,7 @@ function Header() {
   const [currentBall, setCurrentBall] = useState(ball1);
 
   return (
-    <div className="hidden sm:block bg-[#252525] h-10 sm:h-20 md:h-24 w-full">
+    <div className="hidden sm:block bg-[#252525] h-10 sm:h-20 md:h-24 w-full ">
       <div className="flex flex-col sm:flex-row items-center space-x-5 justify-between h-full text-white px-4 sm:px-6 md:px-10 lg:px-20 xl:px-40">
         {/* Contact Info */}
         <div className="flex flex-col sm:flex-row items-center justify-center text-center space-y-2 sm:space-y-0 sm:space-x-6 md:space-x-10 mb-2 sm:mb-0">
