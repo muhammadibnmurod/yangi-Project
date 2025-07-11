@@ -1,7 +1,7 @@
 import React from "react";
 import Worker from "../../assets/worker.jpg"; 
-import WorkerWoman from '../../assets/workwerwoman.jpg';
-import WorkerMan from '../../assets/workwerman.jpg';
+import WorkerWoman from '../../assets/workerwoman.jpg';
+import WorkerMan from '../../assets/workerman.jpg';
 
 const testimonials = [
   {

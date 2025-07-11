@@ -3,7 +3,3 @@
 .background-img {
     background-image: url('./assets/header-background-img.jpg');
 }
-
-@theme {
-    --tracking-1: 1px
-}
